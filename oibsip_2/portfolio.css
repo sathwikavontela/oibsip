@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.facts-section {
+    background-color: #323f4b;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+
+.heading1 {
+    color: #cced00;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Roboto;
+    padding-left: 20px;
+    padding-top: 40px;
+
+}
+
+.heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding-left: 20px;
+
+}
+
+.paragraph {
+    color: #9aa5b1;
+    font-size: 28px;
+    font-family: Roboto;
+    padding-left: 10px;
+}
+
+.skills-container {
+    background-color: #1f2933;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 40px;
+
+}
+
+.heading2 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-card1 {
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+
+.image-card {
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1%;
+}
+
+.image-background {
+    height: 150px;
+    width: 150px;
+    padding-bottom: 3%;
+    background-color: #323f4b;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 3%;
+
+}
+.Footer-section{
+    height: 100%;
+    width: auto;
+    background-color: #0d2436;
+   
+}
+ img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    padding: 20px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: #cced00;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.paragraph{
+    font-size: 30px;
+    font-weight: 370;
+    color: #9aa5b1;
+    padding-top: 10px;
+   
+}
+.img1{
+    padding-left: 30px;
+    color: #5a7184;
+}
+.heading1{
+    font-size: 30px;
+    font-weight: 500;
+    color: #cced00;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.paragraph1
+{
+    font-size: 25px;
+    font-weight: 410;
+    color: #9aa5b1;
+    padding-top: 10px;
+    padding-left: 12px;
+}
+.container-fluid{
+    background-color: #001c32;
+    height: fit-content;
+    width: fit-content;
+}
+
