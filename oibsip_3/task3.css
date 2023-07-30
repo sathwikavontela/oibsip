@@ -1,0 +1,23 @@
+body{
+    background-color:pink;
+    
+}
+h2{
+    font-size:40px;
+}
+.box{
+    width:350px;
+    background-color:#dbab25;
+    padding:20px 40px;
+    margin-left:450px;
+    margin-top:80px;
+
+  /*  justify-content:space-between;*/
+}
+.boxes{
+    width:350px;
+    margin-left:451px;
+    margin-top:40px;
+    padding:20px 40px;
+    background-color:#ff0095;
+}
