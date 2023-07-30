@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible"cont="ie=edge">
+<title>Temperature convertor</title>
+<style>
+    body{
+        background-color:rgb(114, 84, 226);
+        
+    }
+    h2{
+        font-size:40px;
+    }
+    .box{
+        width:350px;
+        background-color:#552dd8;
+        padding:20px 40px;
+        margin-left:450px;
+        margin-top:80px;
+    
+      /*  justify-content:space-between;*/
+    }
+    .boxes{
+        width:350px;
+        margin-left:451px;
+        margin-top:40px;
+        padding:20px 40px;
+        background-color:#552dd8;
+    }
+</style>
+</head>
+   
+        <body>
+            <h2 align="center"><strong> Temperature Convertor</strong></h2>
+            <div class="box">
+                <label for="celsius">Celsius:</label>
+                <input type="number" id="celsius" oninput="convertorc_to_f()" >
+            </div>
+            <div class="boxes">
+                <label for="farenheit">Farenheit:</label>
+                <input type="number" id="farenheit" oninput="convertorf_to_c()">
+            </div>
+            <script>
+                let celcius=document.getElementById("celcius");
+                let farenheit=document.getElementById("farenheit");
+                function convertorc_to_f(){
+                    let output=(parseFloat(celsius.value)*9/5+32);
+                    farenheit.value=parseFloat(output.toFixed(2));
+                }
+                function convertorf_to_c(){
+                    let output=(parseFloat(farenheit.value)-32)*5/9;
+                    celsius.value=parseFloat(output.toFixed(2));
+                }
+            </script>
+        </body>
+        </html>
